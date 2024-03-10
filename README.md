@@ -1,1 +1,1 @@
-Ci - joint 2 fichiers markdown qui rescencent certaines de mes notes sur ce que j'ai appris sur l'apprentissage auto
+Ci - joint 2 fichiers markdown qui recensent certaines de mes notes sur ce que j'ai appris en autodidacte sur l'apprentissage auto

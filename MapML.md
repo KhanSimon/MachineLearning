@@ -35,19 +35,19 @@ Parmi les données du training set, en garder 20% de côté, on ne les utilisera
 
 La validation croisée répète ce rapport 20/80 N fois, le testing set est choisi aléatoirement à chaque itération. 
 
-![Validation croisée](ML2/Capture_decran_2023-07-10_a_11.03.24.png)
+![Validation croisée](static/ML2/Capture_decran_2023-07-10_a_11.03.24.png)
 
 Validation croisée
 
 ### Représentation poupée russe des types d’apprentissages :
 
-![IMG_4532.JPG](ML2/IMG_4532.jpg)
+![IMG_4532.JPG](static/ML2/IMG_4532.jpg)
 
 ### Description de quelques algorithmes de Machine Learning :
 
-![IMG_4534.JPG](ML2/IMG_4534.jpg)
+![IMG_4534.JPG](static/ML2/IMG_4534.jpg)
 
-![IMG_4533.JPG](ML2/IMG_4533.jpg)
+![IMG_4533.JPG](static/ML2/IMG_4533.jpg)
 
 ## 2 : Déploiement :
 

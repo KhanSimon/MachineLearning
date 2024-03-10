@@ -1,4 +1,4 @@
-# →Data Science : [lien direct algo ML] Utilisée pour analyser et interpréter les données (Machine Learning)
+# Quelques modèles d'apprentissage auto
 
 # Apprentissage automatique non profond :
 
@@ -6,13 +6,13 @@
 
 Decision Tree puis K-nn : 
 
-![IMG_4534.JPG](ML/IMG_4534.jpg)
+![IMG_4534.JPG](static/ML/IMG_4534.jpg)
 
 ### Non Supervisé :
 
 K-means, clustering : 
 
-![IMG_4533.JPG](ML/IMG_4533.jpg)
+![IMG_4533.JPG](static/ML/IMG_4533.jpg)
 
 # Apprentissage automatique profond :
 
@@ -69,7 +69,7 @@ def algo_grad(X,p=0.01,Err): #X peut au départ être généré aléatoirement, 
 
 Réseau de neurones profond : 
 
-![Untitled](ML1/Untitled.png)
+![Untitled](static/ML1/Untitled.png)
 
 - Input :
     
@@ -86,7 +86,7 @@ Réseau de neurones profond :
 
 ### 1 seule couche :
 
-![Capture d’écran 2023-09-04 à 18.40.27.png](ML1/Capture_decran_2023-09-04_a_18.40.27.png)
+![Capture d’écran 2023-09-04 à 18.40.27.png](static/ML1/Capture_decran_2023-09-04_a_18.40.27.png)
 
 La fonction coût est calculée pour afficher l’évolution de l’erreur en fonction des itérations. 
 
@@ -95,7 +95,7 @@ Autres étapes non indiquées sur le schéma ci dessus mais présentes dans le c
 - normaliser le train set et le test set : Xnorma = X-Xmin/Xmax-Xmin
 - gérer les problème de dimension avec la fonction reshape()
 
-![IMG_5054.JPG](ML1/IMG_5054.jpg)
+![IMG_5054.JPG](static/ML1/IMG_5054.jpg)
 
 - entrainer le modèle en trouvant les bons hyper-paramètres : learning rate et nb itération (mettre la bar de chargement )
 - évaluer le modèle avec le test set
@@ -104,18 +104,18 @@ Autres étapes non indiquées sur le schéma ci dessus mais présentes dans le c
 
 Les fonctions d’activation, coût, et le gradient sont calculées à partir des formules suivantes : 
 
-![IMG_5051.JPG](ML1/IMG_5051.jpg)
+![IMG_5051.JPG](static/ML1/IMG_5051.jpg)
 
-![IMG_5052.JPG](ML1/IMG_5052.jpg)
+![IMG_5052.JPG](static/ML1/IMG_5052.jpg)
 
 Avec une seule couche, on peut gérer des problèmes de régression logistique. La régression peut être linéaire (comme dans notre cas), mais parfois aussi polynomiale :
 
-![Capture d’écran 2023-09-08 à 15.04.08.png](ML1/Capture_decran_2023-09-08_a_15.04.08.png)
+![Capture d’écran 2023-09-08 à 15.04.08.png](static/ML1/Capture_decran_2023-09-08_a_15.04.08.png)
 
 Sauf que ça, c’est du ML. En DL, on rajoute une couche de neurone. 
 
 ### N couches :
 
-![IMG_5068.JPG](ML1/IMG_5068.jpg)
+![IMG_5068.JPG](static/ML1/IMG_5068.jpg)
 
 [](https://jupyterhub.ijclab.in2p3.fr/jupyter/user/simon.khan@universite-paris-saclay.fr/notebooks/autre/dl_Nlayers_nneurons.ipynb)

@@ -43,7 +43,7 @@ def predict(Xnew, w, b):
 def accuracy(traintab,testtab):
     return 100*(1-sum(abs(traintab-testtab))/(2*len(traintab)))
 
-X, y = datasets.make_blobs(n_samples=50, n_features=2, centers=2, cluster_std=1.05, random_state=22)
+X, y = datasets.make_blobs(n_samples=50, n_features=2, centers=2, cluster_std=1.05, random_state=3)
 y = np.where(y==0,-1,1)
 
 Xtrain, Xtest, ytrain, ytest = train_test_split(X, y, test_size=0.2, random_state=123)
@@ -71,7 +71,6 @@ plt.show()
 ytest_expe = predict(Xtest, w, b)
 print(f"precision de {accuracy(ytest_expe,ytest)} %")
 
-print(w)
 
 
 

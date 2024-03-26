@@ -1,1 +1,3 @@
-Ci - joint 2 fichiers markdown qui recensent certaines de mes notes sur ce que j'ai appris en autodidacte sur l'apprentissage auto
+Modèles de machine learning que j'ai étudié en autodidacte depuis internet et des livres de ML. 
+Lire les fichiers Markdown pour comprendre le fonctionnement des modèles. 
+

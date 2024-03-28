@@ -61,7 +61,7 @@ y_linelim2 = (-w[0]*x_line-b-1)/w[1]
 
 plt.ylim(min(Xtrain[:, 1])-3, max(Xtrain[:, 1])+3)
 
-plt.plot(x_line, y_line, '-g') 
+plt.plot(x_line, y_line, color = 'green') 
 plt.plot(x_line, y_linelim, '-k') 
 plt.plot(x_line, y_linelim2, '-k') 
 

@@ -7,8 +7,6 @@ from random import *
 from mpl_toolkits.mplot3d import Axes3D
 
 
-def distance(x, y):
-        return np.sqrt(x**2+y**2)
 class KMeans():
 
     def __init__(self, features, K, max_iter):
